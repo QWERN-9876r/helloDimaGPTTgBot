@@ -1,0 +1,30 @@
+{
+  "name": "bot-in-tg",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./src/main",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@google-cloud/text-to-speech": "^4.2.2",
+    "axios": "^1.3.6",
+    "config": "^3.3.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "gtts": "^0.2.1",
+    "node-navigator": "^1.0.1",
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
